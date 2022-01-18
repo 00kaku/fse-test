@@ -1,0 +1,33 @@
+<!-- wp:template-part {"slug":"header","tagName":"header","className":"site-header","layout":{"inherit":true}} /-->
+<!-- wp:group {"tagName":"main","layout":{"inherit":true}} -->
+<main class="wp-block-group">
+	<!-- wp:post-featured-image /-->
+	<!-- wp:post-title /-->
+	<!-- wp:post-author /-->
+	<!-- wp:post-date /-->
+	<!-- wp:post-terms {"term":"category"} /-->
+	<!-- wp:spacer {"height":40} -->
+	<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- /wp:spacer -->
+	<!-- wp:post-content {"align":"full","layout":{"inherit":true}} /-->
+	<!-- wp:spacer {"height":40} -->
+	<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- /wp:spacer -->
+	<!-- wp:post-terms {"term":"post_tag"} /-->
+	<!-- wp:spacer {"height":20} -->
+	<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- /wp:spacer -->
+
+	<!-- wp:post-navigation-link {"type":"previous"} /-->
+	<!-- wp:post-navigation-link /-->
+	<!-- wp:heading {"className:"comments-title"} -->
+	<h2 class="comments-title">Comments</h2>
+	<!-- /wp:heading -->
+	<!-- wp:post-comments /-->
+
+</main>
+<!-- /wp:group -->
+<!-- wp:template-part {"slug":"footer","tagName":"footer","className":"site-footer","layout":{"inherit":true}} /-->
+
+
+<!-- "wp:post-content" Is the equivalent of the_content() in a traditional PHP-based theme. -->
